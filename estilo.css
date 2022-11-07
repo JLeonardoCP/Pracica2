@@ -1,0 +1,275 @@
+/* JOSE LEONARDO CRUZ POOL */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+.ancho {
+  max-width: 1200px;
+  margin: auto;
+}
+.fondoinicio {
+  background-color: #62807e;
+}
+.faceins {
+  vertical-align: middle;
+  display: inline-block;
+  width: 400px;
+}
+.barratop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.youtubeiconi {
+  display: inline-block;
+  margin-left: 50px;
+}
+.infocd {
+  color: white;
+  vertical-align: middle;
+  display: inline-block;
+  width: 700px;
+}
+.infocd a {
+  text-decoration: none;
+  color: white;
+  margin-right: 10px;
+}
+.menu_inic img {
+  vertical-align: middle;
+  display: inline-block;
+}
+.menubar {
+  vertical-align: middle;
+  display: inline-block;
+}
+.menubar a {
+  margin: 20px 30px;
+  color: black;
+  margin-right: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  vertical-align: middle;
+  display: inline-block;
+}
+.menubar a:hover {
+  color: #ffd101;
+  border-bottom: #ffd101 solid;
+}
+.contri {
+  background-image: url("imagenes/fondo1.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+  border-bottom: 10px #ffd101 solid;
+}
+.contricentro {
+  margin: 20px 0px;
+  display: inline-block;
+  padding: 20px;
+  font-weight: bold;
+  background-color: #62807e;
+  font-size: 22px;
+  width: 500px;
+  height: 200px;
+  color: white;
+}
+.contricentro span {
+  color: #ffd101;
+}
+.estemes img {
+  display: inline-block;
+  vertical-align: middle;
+}
+.estemes span {
+  vertical-align: middle;
+  font-size: 22px;
+  font-family: Impact;
+  font-weight: bold;
+  color: #00c2a0;
+}
+.estemes {
+  margin-bottom: 20px;
+  border-bottom: 2px #d9d9d9 solid;
+}
+.casoso {
+  background-image: url("imagenes/fondo2.jpg");
+  background-size: contain;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+.casosde {
+  margin-bottom: 20px;
+  border-bottom: 2px black solid;
+}
+.casosde img {
+  display: inline-block;
+  vertical-align: middle;
+}
+.casosde .tituloc {
+  font-family: impact;
+  font-size: 32px;
+  vertical-align: middle;
+}
+.img_casos {
+  vertical-align: top;
+  display: inline-block;
+}
+.creacion {
+  vertical-align: top;
+  margin-left: 10px;
+  width: 400px;
+  display: inline-block;
+}
+.creacion h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.creacion a {
+  margin: 30px 0px;
+  display: inline-block;
+  font-family: impact;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #62807e;
+}
+.creacion a:hover {
+  background-color: white;
+  color: black;
+}
+.video_paz {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: Impact;
+  vertical-align: top;
+  margin-left: 10px;
+  display: inline-block;
+}
+.formulario {
+  background-color: #d9d9d9;
+  display: inline-block;
+  width: 550px;
+  text-align: center;
+  padding: 10px;
+}
+.recu {
+  border-radius: 3px;
+  width: 480px;
+  color: black;
+  padding: 15px;
+  margin: 10px;
+}
+.comentario {
+  resize: none;
+  height: 150px;
+  color: black;
+}
+#boton {
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  width: 480px;
+  background-color: #00c2a0;
+  padding: 10px;
+  display: inline-block;
+}
+#boton:hover {
+  background-color: white;
+  color: black;
+}
+.mapa {
+  margin: 10px;
+  vertical-align: top;
+  display: inline-block;
+}
+.finalborde {
+  text-align: center;
+  background-color: #00c2a0;
+}
+.derechos {
+  font-size: 15px;
+  color: white;
+  background-color: #62807e;
+}
+.card h2 {
+  font-family: Impact;
+  text-align: center;
+}
+.card {
+  margin-bottom: 20px;
+  vertical-align: top;
+  display: inline-block;
+  background-color: #d9d9d9;
+  width: 380px;
+  padding: 20px;
+  margin: 10px;
+}
+.card img {
+  vertical-align: top;
+  display: inline-block;
+}
+.card .texto {
+  width: 280px;
+  vertical-align: middle;
+  display: inline-block;
+}
+.card a {
+  margin-top: 18px;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  background-color: #00c2a0;
+  padding: 10px 30px;
+}
+.card a:hover {
+  background-color: white;
+  color: #00c2a0;
+}
+.tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.tabla {
+  margin-bottom: 20px;
+  border-spacing: 0px;
+  border: 1px #62807e solid;
+}
+.tabla td {
+  padding: 15px;
+  border: 1px #62807e solid;
+}
+.grisle {
+  font-weight: bold;
+  background-color: #d9d9d9;
+  vertical-align: top;
+}
+.celdauno {
+  font-family: Impact;
+  text-align: center;
+  font-size: 25px;
+  background-color: #62807e;
+  color: white;
+  padding: 10px;
+}
+.celdados {
+  font-family: IMpact;
+  color: black;
+}
+.celdadilan {
+  text-align: center;
+  background-color: #ffd101;
+  color: white;
+}
+li {
+  list-style-position: inside;
+  list-style-type: decimal;
+}
